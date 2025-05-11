@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProgAssignLachie", "FinalProgAssignLachie\FinalProgAssignLachie.csproj", "{9F7AE9A8-E8B5-4A54-9F68-A6BB74C89705}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{52FEB23A-5F28-42EC-804C-514B150BB152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTest\UnitTests.csproj", "{9E905DBD-5F10-445B-93A2-15CEAD72FAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{9F7AE9A8-E8B5-4A54-9F68-A6BB74C89705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7AE9A8-E8B5-4A54-9F68-A6BB74C89705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7AE9A8-E8B5-4A54-9F68-A6BB74C89705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E905DBD-5F10-445B-93A2-15CEAD72FAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E905DBD-5F10-445B-93A2-15CEAD72FAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E905DBD-5F10-445B-93A2-15CEAD72FAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E905DBD-5F10-445B-93A2-15CEAD72FAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E905DBD-5F10-445B-93A2-15CEAD72FAAA} = {52FEB23A-5F28-42EC-804C-514B150BB152}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61D592A5-548C-4B13-86A7-D733B52F0CE1}
